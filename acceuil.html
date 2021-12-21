@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/js/toast.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="toast position-absolute end-0">
+        <div class="toast-header bg-primary text-white">
+            <strong class="me-auto">Bottstrap</strong>
+            <small>Maintenant</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">
+            Bienvenue dans bootstrap 5 !
+        </div>
+    </div>
     <main class="container-fluid my-3">
         <section class="row mb-3">
             <div class="col-12 col-lg-8">
